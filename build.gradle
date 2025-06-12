@@ -1,0 +1,43 @@
+buildscript {
+    ext{
+        compileSdkVersion = 31
+        minSdkVersion = 21
+        targetSdkVersion = 31
+
+        appCompatVersion = '1.4.1'
+        fragmentVersion = '1.4.1'
+        constraintLayoutVersion = '2.1.3'
+        materialVersion = '1.5.0'
+        kotlin_version = "1.6.20"
+        ktxVersion = '1.7.0'
+        lifecycleVersion = '2.4.1'
+        navigationVersion = '2.4.2'
+        gradleVersion = '7.0.2'
+        daggerVersion = '2.40.5'
+        coreTestingVersion = '2.1.0'
+        testExtJunit ='1.1.3'
+        junitVersion ='4.13.2'
+
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradleVersion"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        //Navigation safe args for actions
+        classpath"androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

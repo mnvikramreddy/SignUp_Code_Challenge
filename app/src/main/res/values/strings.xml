@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Code Challenge</string>
+    <string name="first_name">First Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="website">Website</string>
+    <string name="first_name_required">First Name Required</string>
+    <string name="email_address_required">Enter Valid Email Address</string>
+    <string name="password_required">Password Must contains 8 or more characters including upperCase, lowerCase and number</string>
+    <string name="website_required">Enter Valid Website</string>
+    <string name="submit">Submit</string>
+    <string name="profile_creation">Profile Creation</string>
+    <string name="use_the_form_below_to_submit_your_portfolio_nan_email_and_password_are_required">Use the form below to submit your portfolio.\nAn email and password are required.</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hello">Hello, %s !</string>
+    <string name="your_super_awesome_portfolio_has_been_successfully_submitted_the_preview_blow_is_what_the_community_will_see">Your super-awesome portfolio has been successfully submitted! The preview blow is what the community will see!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="tap_to_add_avatar">Tap to add \n avatar</string>
+</resources>
